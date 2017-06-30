@@ -1,0 +1,4 @@
+C:\Users\Tony\Documents\Visual Studio 2012\Projects\PaperRound\PaperRound\PaperRound.Constants\bin\Debug\PaperRound.Constants.dll
+C:\Users\Tony\Documents\Visual Studio 2012\Projects\PaperRound\PaperRound\PaperRound.Constants\bin\Debug\PaperRound.Constants.pdb
+C:\Users\Tony\Documents\Visual Studio 2012\Projects\PaperRound\PaperRound\PaperRound.Constants\obj\Debug\PaperRound.Constants.dll
+C:\Users\Tony\Documents\Visual Studio 2012\Projects\PaperRound\PaperRound\PaperRound.Constants\obj\Debug\PaperRound.Constants.pdb

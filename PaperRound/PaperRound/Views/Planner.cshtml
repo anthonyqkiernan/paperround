@@ -1,0 +1,42 @@
+﻿@model PaperRound.Business.Models.Street
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Paper Round</title>
+</head>
+<body>
+    <div>
+        <h1>
+            Planner
+        </h1>
+        <h2>
+            Valid street: @Model.Valid
+        </h2>
+        @if (Model.Valid)
+        {
+            <h2>
+                Total houses: @Model.Houses.Count
+            </h2>
+            <!-- TODO: ADD TO MODEL -->
+            <h3>
+                Total on North side: @Model.Houses.Count(h => !h.IsEven)
+            </h3>
+            <h3>
+                Total on South side: @Model.Houses.Count(h => h.IsEven)
+            </h3>
+            <h1>
+                Paperboy
+            </h1>
+            <h2>
+                Sequence of houses: @Model.Sequence
+            </h2>
+            <!-- TODO: ADD TO MODEL -->
+            <h3>
+                Cross the road @Model.Crosses times
+            </h3>
+        }
+    </div>
+</body>
+</html>

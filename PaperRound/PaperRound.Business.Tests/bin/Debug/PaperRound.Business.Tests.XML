@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PaperRound.Business.Tests</name>
+    </assembly>
+    <members>
+        <member name="T:PaperRound.Business.Tests.Constants.Arrays">
+            <summary>
+            Array constants used for unti testing purposes
+            </summary>
+        </member>
+        <member name="F:PaperRound.Business.Tests.Constants.Arrays.StreetNumbers">
+            <summary>
+            The street numbers list
+            </summary>
+        </member>
+        <member name="T:PaperRound.Business.Tests.Constants.Strings">
+            <summary>
+            Strings used in the business unit tests 
+            </summary>
+        </member>
+        <member name="F:PaperRound.Business.Tests.Constants.Strings.StreetNumbers">
+            <summary>
+            Example of street number format.  1-6 
+            </summary>
+        </member>
+        <member name="F:PaperRound.Business.Tests.Constants.Strings.InValidStreetNumbers">
+            <summary>
+            Example of invalide street number format.   
+            </summary>
+        </member>
+        <member name="T:PaperRound.Business.Tests.Utilities.Integers">
+            <summary>
+            Tests of the integer utliites
+            </summary>
+        </member>
+        <member name="M:PaperRound.Business.Tests.Utilities.Integers.IsOddTrue">
+            <summary>
+            Determines whether [is odd true].
+            </summary>
+        </member>
+        <member name="M:PaperRound.Business.Tests.Utilities.Integers.IsOddFalse">
+            <summary>
+            Determines whether [is odd false].
+            </summary>
+        </member>
+        <member name="T:PaperRound.Business.Tests.Utilities.Strings">
+            <summary>
+            Test for utilities pertaining to strings and their manipulation
+            </summary>
+        </member>
+        <member name="M:PaperRound.Business.Tests.Utilities.Strings.IsValidFalse">
+            <summary>
+            Determines whether [is valid false].
+            </summary>
+        </member>
+        <member name="M:PaperRound.Business.Tests.Utilities.Strings.IsValidTrue">
+            <summary>
+            Determines whether [is valid true].
+            </summary>
+        </member>
+    </members>
+</doc>

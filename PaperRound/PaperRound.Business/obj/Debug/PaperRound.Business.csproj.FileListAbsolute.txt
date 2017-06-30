@@ -1,0 +1,6 @@
+C:\Users\Tony\Documents\Visual Studio 2012\Projects\PaperRound\PaperRound\PaperRound.Business\bin\Debug\PaperRound.Business.dll
+C:\Users\Tony\Documents\Visual Studio 2012\Projects\PaperRound\PaperRound\PaperRound.Business\bin\Debug\PaperRound.Business.pdb
+C:\Users\Tony\Documents\Visual Studio 2012\Projects\PaperRound\PaperRound\PaperRound.Business\obj\Debug\PaperRound.Business.csprojResolveAssemblyReference.cache
+C:\Users\Tony\Documents\Visual Studio 2012\Projects\PaperRound\PaperRound\PaperRound.Business\obj\Debug\PaperRound.Business.dll
+C:\Users\Tony\Documents\Visual Studio 2012\Projects\PaperRound\PaperRound\PaperRound.Business\obj\Debug\PaperRound.Business.pdb
+C:\Users\Tony\Documents\Visual Studio 2012\Projects\PaperRound\PaperRound\PaperRound.Business\bin\Debug\PaperRound.Business.XML

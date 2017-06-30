@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PaperRound.Website</name>
+    </assembly>
+    <members>
+        <member name="T:PaperRound.Website.Controllers.IndexController">
+            <summary>
+            
+            </summary>
+            <seealso cref="T:System.Web.Mvc.Controller"/>
+        </member>
+        <member name="M:PaperRound.Website.Controllers.IndexController.Index">
+            <summary>
+            Indexes this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PaperRound.Website.Controllers.IndexController.Index(System.Web.HttpPostedFileBase)">
+            <summary>
+            Handles the uploaded file.
+            </summary>
+            <param name="file">The file.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

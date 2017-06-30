@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PaperRound.Business</name>
+    </assembly>
+    <members>
+        <member name="T:PaperRound.Business.Models.House">
+            <summary>
+            Model for each unit on the street
+            </summary>
+        </member>
+        <member name="P:PaperRound.Business.Models.House.Number">
+            <summary>
+            Gets or sets the number.
+            </summary>
+            <value>
+            The house number.
+            </value>
+        </member>
+        <member name="P:PaperRound.Business.Models.House.Sequence">
+            <summary>
+            Gets or sets the sequence.
+            </summary>
+            <value>
+            The positon of the house in a west to east sequence.
+            </value>
+        </member>
+        <member name="P:PaperRound.Business.Models.House.IsEven">
+            <summary>
+            Gets or sets a value indicating whether this instance is even.
+            </summary>
+            <value>
+              <c>true</c> if this instance is even; otherwise, <c>false</c>.
+            Purely included to ascertain when the sequence changes side of the street
+            </value>
+        </member>
+        <member name="T:PaperRound.Business.Models.StreetSide">
+            <summary>
+            Model representing one side of a street
+            </summary>
+        </member>
+        <member name="P:PaperRound.Business.Models.StreetSide.StreetNumbers">
+            <summary>
+            Gets or sets the street numbers.
+            </summary>
+            <value>
+            The street numbers on this side of the street.
+            </value>
+        </member>
+        <member name="T:PaperRound.Business.Models.Street">
+            <summary>
+            Mode representing the street
+            </summary>
+        </member>
+        <member name="P:PaperRound.Business.Models.Street.Crosses">
+            <summary>
+            Gets or sets the crosses.
+            </summary>
+            <value>
+            The number of times the paperboy crosses the street.
+            </value>
+        </member>
+        <member name="P:PaperRound.Business.Models.Street.Houses">
+            <summary>
+            Gets or sets the houses.
+            </summary>
+            <value>
+            A strongly typed list of houses to make mvp.
+            </value>
+        </member>
+        <member name="P:PaperRound.Business.Models.Street.North">
+            <summary>
+            Gets or sets the north.
+            </summary>
+            <value>
+            The north side of the street.  The odd numbers
+            </value>
+        </member>
+        <member name="P:PaperRound.Business.Models.Street.South">
+            <summary>
+            Gets or sets the south.
+            </summary>
+            <value>
+            The south side of the street. The even numbers
+            .
+            </value>
+        </member>
+        <member name="P:PaperRound.Business.Models.Street.Sequence">
+            <summary>
+            Gets or sets the sequence.
+            </summary>
+            <value>
+            The sequence of house numbers.
+            </value>
+        </member>
+        <member name="P:PaperRound.Business.Models.Street.Valid">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:PaperRound.Business.Models.Street"/> is valid.
+            </summary>
+            <value>
+              <c>true</c> if valid; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="T:PaperRound.Business.Parse.StreetBuilder">
+            <summary>
+            Processes to build and populate a streett model for use
+            </summary>
+        </member>
+        <member name="M:PaperRound.Business.Parse.StreetBuilder.GetStreet">
+            <summary>
+            Gets the street.
+            </summary>
+            <param name="filePath">The submitted file path.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PaperRound.Business.Parse.StreetBuilder.GetHouses(System.String)">
+            <summary>
+            Gets the houses.
+            </summary>
+            <param name="streetNumbers">The street numbers.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PaperRound.Business.Parse.StreetBuilder.GetStreetSide(System.Collections.Generic.List{System.Int32},System.Int32)">
+            <summary>
+            Gets the street side.
+            </summary>
+            <param name="streetNumbers">The street numbers.</param>
+            <param name="modulo">The modulo.</param>
+            <returns></returns>
+        </member>
+        <member name="T:PaperRound.Business.Utilities.Integers">
+            <summary>
+            Utilities pertaining to integers and their manipulation
+            </summary>
+        </member>
+        <member name="M:PaperRound.Business.Utilities.Integers.IsOdd(System.Int32)">
+            <summary>
+            Determines whether the specified value is odd.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>
+              <c>true</c> if the specified value is odd; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="T:PaperRound.Business.Utilities.Strings">
+            <summary>
+            Utilities pertaining to the array of street numbers and their manipulation and validation
+            </summary>
+        </member>
+        <member name="M:PaperRound.Business.Utilities.Strings.IsValidStreet(System.String)">
+            <summary>
+            Returns true if ... is valid.
+            </summary>
+            <param name="street">The street array</param>
+            <returns>
+              <c>true</c> if the specified street array is valid; otherwise, <c>false</c>.
+            </returns>
+        </member>
+    </members>
+</doc>
